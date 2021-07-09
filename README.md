@@ -14,7 +14,7 @@
 
 #### R10 - Deployed Website
 
-**[1UP Bouldering Gym Portal](https://)**
+**[1UP Bouldering Gym Application Portal](https://)**
 
 #### R11 - Github Repositories
 
@@ -35,6 +35,20 @@
 - **[R4 - User Stories](#user-stories)**
 - **[R5 - Wireframes](#wireframes)**
 - **[R6 - Trello Board](#trello-board)**
+- ***[Client Engagement](#client-engagement)***
+  - ***[Meetings](#meetings)***
+- ***[Project Management](#project-management)***
+  - ***[Planning Methodology](#planning-methodology)***
+  - ***[Delegation Methodology](#delegation-methodology)***
+  - ***[Feature Prioritisation](#feature-prioritisation)***
+- ***[Development Process](#development-process)***
+  - ***[Roadmap](#roadmap)***
+  - ***[User Testing Pipeline](#user-testing-pipeline)***
+  - ***[Automated Test Suite](#automated-test-suite)***
+  - ***[User Testing Results](#user-testing-results)***
+    - ***[Development Environment](#development-environment)***
+    - ***[Production Environment](#production-environment-with-client)***
+- ***[Website Screenshots](#website-screenshots)***
 
 <hr>
 
@@ -65,3 +79,52 @@
 
 **09/07/21**
 ![090721](./docs/trello/02_090721.png)
+
+## Client Engagement
+
+#### Meetings
+
+##### Offline discussions
+
+- Client has emphasised importance of having robust data analytics capability within the system - targeting membership demographics such as age, gender, locale and trends such as frequency of use, payment cycles, etc.
+- Client would prefer membership tag system to be integrated into system.
+
+##### 11am Saturday 10/07/21
+
+## Project Management
+
+#### Planning Methodology
+
+<!-- describe workflow -->
+
+#### Delegation Methodology
+
+<!-- describe strengths / weaknesses -->
+
+#### Feature Prioritisation
+
+<!-- Essential / Desirable / Wow-Factor -->
+
+<!-- Difficulty level -->
+
+## Development Process
+
+#### Roadmap
+
+<!-- Estimated timelines -->
+
+#### User Testing Pipeline
+
+<!-- describe workflow and tools (surveys, etc.) -->
+
+#### Automated Test Suite
+
+<!-- test-driven development guidelines -->
+
+#### User Testing Results
+
+##### Development Environment
+
+##### Production Environment (with Client)
+
+## Website Screenshots
