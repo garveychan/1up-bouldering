@@ -56,11 +56,60 @@
 
 #### Purpose
 
+The purpose of this application is to present an all-in-one solution for managing the membership-related operations of a **local bouldering gym** via an **intuitive web portal interface**. It is intended to cover **new member onboarding, profile management, check-in logs, data analytics, and payments integration**; The first three features represent the Minimum Viable Product (MVP). The application is required to be **scalable** and **extendable**, with the potential for integration with **third-party systems** at a later date.
+
 #### Features
+
+**Member Sign-Up**
+- Member Profile
+- Membership Type
+- Payment Details
+- Waiver Signing
+- Welcome Email
+
+**Member Dashboard**
+- Edit Profile
+- Change Membership
+- Update Payment Details
+- Contact Gym Owner
+
+**Check-in Dashboard**
+- Live Check-in View (Most recent check-in displayed, running log)
+- Historical Check-in Logs
+
+**Owner Dashboard**
+- Basic Member Insights
+- Outstanding Payments
+- Feedback / Queries
+- Marketing Emails (Promotions)
+
+**Billing System**
+- Third-party Payment Integration
+- Payment Emails (Successful / Reminders / Missed)
 
 #### Target Audience
 
+The target audience for this application is our client - **1UP Bouldering Gym**.
+
 #### Tech Stack
+
+##### Front-End
+
+- **ReactJS** - JavaScript library for building interactive User Interfaces.
+
+- **TailwindCSS** - Utility-first CSS framework for styling.
+  
+- **Jest** - JavaScript testing framework.
+
+- **Netlify** - Powerful git-based serverless platform for deployment.
+
+##### Back-End
+
+- **Ruby on Rails** - Server-side web application framework particularly useful for developing MVPs with quick time-to-market requirements.
+
+- **Rspec Rails** - Testing library for Rails applications based on Rspec.
+
+- **Heroku** - Container-based Cloud Platform as a Service (PaaS) used to deploy, manage, and scale modern apps.
 
 ## Dataflow Diagram
 
@@ -68,13 +117,15 @@
 
 ## User Stories
 
+
+
 ## Wireframes
 
 ## Trello Board
 
 ##### [Link](https://trello.com/b/a1wC5ZhV/full-stack-app-t3a2-1up-bouldering)
 
-**08/07/21 - Initialisation**
+**08/07/21**
 ![080721](./docs/trello/01_080721.png)
 
 **09/07/21**
@@ -87,7 +138,7 @@
 ##### Offline discussions
 
 - Client has emphasised importance of having robust data analytics capability within the system - targeting membership demographics such as age, gender, locale and trends such as frequency of use, payment cycles, etc.
-- Client would prefer membership tag system to be integrated into system.
+- Client would prefer membership tag system to be integrated into the application.
 
 ##### 11am Saturday 10/07/21
 
@@ -103,15 +154,17 @@
 
 #### Feature Prioritisation
 
-<!-- Essential / Desirable / Wow-Factor -->
+![Prioritisation Matrix](./docs/prioritisation_matrix.png)
 
-<!-- Difficulty level -->
+<!-- Challenges / Difficulty Level -->
+
+<!-- Essential / Desirable / Wow-Factor -->
 
 ## Development Process
 
 #### Roadmap
 
-<!-- Estimated timelines -->
+<!-- Features -> User Stories -> Estimated Timelines -->
 
 #### Automated Test Suite
 
