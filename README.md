@@ -35,20 +35,20 @@
 - **[R4 - User Stories](#user-stories)**
 - **[R5 - Wireframes](#wireframes)**
 - **[R6 - Trello Board](#trello-board)**
-- ***[Client Engagement](#client-engagement)***
-  - ***[Meetings](#meetings)***
-- ***[Project Management](#project-management)***
-  - ***[Planning Methodology](#planning-methodology)***
-  - ***[Delegation Methodology](#delegation-methodology)***
-  - ***[Feature Prioritisation](#feature-prioritisation)***
-- ***[Development Process](#development-process)***
-  - ***[Roadmap](#roadmap)***
-  - ***[User Testing Pipeline](#user-testing-pipeline)***
-  - ***[Automated Test Suite](#automated-test-suite)***
-  - ***[User Testing Results](#user-testing-results)***
-    - ***[Development Environment](#development-environment)***
-    - ***[Production Environment](#production-environment-with-client)***
-- ***[Website Screenshots](#website-screenshots)***
+- **_[Client Engagement](#client-engagement)_**
+  - **_[Meetings](#meetings)_**
+- **_[Project Management](#project-management)_**
+  - **_[Planning Methodology](#planning-methodology)_**
+  - **_[Delegation Methodology](#delegation-methodology)_**
+  - **_[Feature Prioritisation](#feature-prioritisation)_**
+- **_[Development Process](#development-process)_**
+  - **_[Roadmap](#roadmap)_**
+  - **_[User Testing Framework](#user-testing-framework)_**
+  - **_[Automated Test Suite](#automated-test-suite)_**
+  - **_[User Testing Results](#user-testing-results)_**
+    - **_[Development Environment](#development-environment)_**
+    - **_[Production Environment](#production-environment-with-client)_**
+- **_[Website Screenshots](#website-screenshots)_**
 
 <hr>
 
@@ -113,13 +113,13 @@
 
 <!-- Estimated timelines -->
 
-#### User Testing Pipeline
-
-<!-- describe workflow and tools (surveys, etc.) -->
-
 #### Automated Test Suite
 
 <!-- test-driven development guidelines -->
+
+#### User Testing Framework
+
+<!-- describe workflow and tools (surveys, etc.) -->
 
 #### User Testing Results
 
