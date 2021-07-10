@@ -121,6 +121,36 @@ The target audience for this application is our client - **1UP Bouldering Gym**.
 
 ## User Stories
 
+**Member Dashboard**
+- Edit Profile
+- Change Membership
+- Update Payment Details
+- Contact Gym Owner
+
+**Owner Dashboard**
+- Basic Member Insights
+- Raw Data Dump
+- Outstanding Payments
+- Feedback / Queries
+- Marketing Emails (Promotions)
+
+**Billing System**
+- Third-party Payment Integration
+- Payment Emails (Successful / Reminders / Missed)
+
+|Epic|Story|
+|:-:|:--|
+|Member Onboarding| *As an owner, I want an intuitive frictionless sign-up interface, so I can quickly onboard new members.* <br> *As an owner, I want to capture individual member profiles, so I can leverage data analytics to improve my service offering.* <br> *As an owner, I want to shoot and store member photos, so I can verify their identity on entry.* <br> *As an owner, I want to provide multiple membership types, so my members have payment flexibility.* <br> *As an owner, I want to collect member payment details, so I can set up recurring direct debits.* <br> *As an owner, I want to display a waiver and collect digital signatures, so I can be sure that my members understand their rights.*
+|Check-in System| *As a member, I want to manually check-in with the application, in case I arrived at the gym without my tag.* <br> *As an owner, I want a live view of new check-ins, so I can evaluate each member entering the gym at a glance.* <br> *As an owner, I want to see a full historical log of check-ins, so I can identify any anomalous behaviour.* <br> As a member, I want to check-in with a tag, so there is minimal delay on entry to the gym.|
+|Member Dashboard|  |
+|Owner Dashboard|  |
+|Billing System|  |
+
+
+*Note - emphasised user stories represent the inimum Viable Product.*
+
+###
+
 
 
 
@@ -136,6 +166,9 @@ The target audience for this application is our client - **1UP Bouldering Gym**.
 **09/07/21**
 ![090721](./docs/trello/02_090721.png)
 
+**10/07/21**
+![100721](./docs/trello/03_100721.png)
+
 ## Client Engagement
 
 ### Meetings
@@ -147,99 +180,29 @@ The target audience for this application is our client - **1UP Bouldering Gym**.
 
 #### 11am Saturday 10/07/21
 
-__Member payment frequency required:__
-
-Daily
-
-Weekly
-
-Monthly
-
-Annual
-
-10-day passes 
-
-__Payment methods__
-
-As a small business, they need to be set up to accept all forms of payment, including cash.
-Stripe offers payment subscription service and KR has implemented this previously. 
-Brian was recommended Adyen. 
-KR to research Adyen, compare with Stripe and recommend solution to client. 
-
-__New member sign up process__
-
-Client preference is for members to complete the sign-up process remotely before attending the gym. 
-Members should also have access to sign-up using iPads provided at the gym or with the assistance of gym staff. 
-Sign up process should also include the ability for members to upload their own photos or to take a photo using the gym’s iPads. 
-
-__New member information__
-Sign up process should capture:
-
-•	Name
-
-•	Date of birth
-
-•	Address
-
-•	Contact information
-
-•	Emergency contact 
-
-__Waiver__
-
-Members need to sign waiver on sign up and again if there is an update to the waiver.
-Periodic updates to the waiver are expected.
-KR/GC to investigate use of electronic signatures. 
-Database will need to include a table to capture the date or version number of the waiver and the date signed by each member. 
-
-__Key features__
-
-Easy to use interface for members and staff is high priority for client. 
-Staff dashboard is high priority.
-When a member checks in to the gym their profile and picture should be displayed to staff at reception. 
-Payment integration is a high priority for the client. 
-Client has experience previously of receiving all data in Excel for further manual review.
-Plan is to provide data in excel format for the first iteration of the app along with a basic dashboard, with more detailed reports to be added later. 
-Chat/queries between members and gym staff was not deemed a high priority by the client. 
-
-The key features agreed for the initial version of the app are:
-
-•	New member onboarding
-
-•	Member Profile and Photo Upload
-
-•	Waiver Signing
-
-•	Check-in Dashboard and Logs
-
-__Integrate existing data__
-
-Due to Covid, the launch date of the gym cannot be confirmed. 
-If the present app is not available in time for launch, an interim app will be used. 
-KR/GC to investigate integrating data from the interim app into the current app. 
-
-__Action Items__
-
-KR to research Adyen, compare with Stripe and recommend solution to client.
-KR/GC to investigate use of electronic signatures for members to sign waivers. 
-KR/GC to investigate integrating data from the interim app into the current app if required. 
-
+![100721 Meeting Notes](./docs/meetings/png/01_100721.png)
 
 ## Project Management
 
 ### Planning Methodology
 
-<!-- describe workflow -->
+<!-- Agile Principles -->
+<!-- Feature Prioritisation -->
+<!-- Outlining Epics, developing User Stories -->
+<!-- Identifying challenges of user stories -->
 
 ### Delegation Methodology
 
-<!-- describe strengths / weaknesses -->
+<!-- Describe Trello workflow -->
+<!-- Story cards for Kanban and subtasks as checklist items in each story card -->
+<!-- tasks delegated by familiarity and experience with subject matter e.g. Strip Integration, Tailwind -->
+<!-- progress evaluated against schedule and team to converge on blocked tasks as necessary -->
 
 ### Feature Mapping
 
 #### Prioritisation Matrix
 
-![Prioritisation Matrix](./docs/prioritisation_matrix.png)
+![Prioritisation Matrix](./docs/assets/prioritisation_matrix.png)
 
 #### Challenges & Difficulty Rating
 
