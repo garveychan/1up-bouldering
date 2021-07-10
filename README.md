@@ -147,6 +147,84 @@ The target audience for this application is our client - **1UP Bouldering Gym**.
 
 #### 11am Saturday 10/07/21
 
+__Member payment frequency required:__
+
+Daily
+
+Weekly
+
+Monthly
+
+Annual
+
+10-day passes 
+
+__Payment methods__
+
+As a small business, they need to be set up to accept all forms of payment, including cash.
+Stripe offers payment subscription service and KR has implemented this previously. 
+Brian was recommended Adyen. 
+KR to research Adyen, compare with Stripe and recommend solution to client. 
+
+__New member sign up process__
+
+Client preference is for members to complete the sign-up process remotely before attending the gym. 
+Members should also have access to sign-up using iPads provided at the gym or with the assistance of gym staff. 
+Sign up process should also include the ability for members to upload their own photos or to take a photo using the gym’s iPads. 
+
+__New member information__
+Sign up process should capture:
+
+•	Name
+
+•	Date of birth
+
+•	Address
+
+•	Contact information
+
+•	Emergency contact 
+
+__Waiver__
+
+Members need to sign waiver on sign up and again if there is an update to the waiver.
+Periodic updates to the waiver are expected.
+KR/GC to investigate use of electronic signatures. 
+Database will need to include a table to capture the date or version number of the waiver and the date signed by each member. 
+
+__Key features__
+
+Easy to use interface for members and staff is high priority for client. 
+Staff dashboard is high priority.
+When a member checks in to the gym their profile and picture should be displayed to staff at reception. 
+Payment integration is a high priority for the client. 
+Client has experience previously of receiving all data in Excel for further manual review.
+Plan is to provide data in excel format for the first iteration of the app along with a basic dashboard, with more detailed reports to be added later. 
+Chat/queries between members and gym staff was not deemed a high priority by the client. 
+
+The key features agreed for the initial version of the app are:
+
+•	New member onboarding
+
+•	Member Profile and Photo Upload
+
+•	Waiver Signing
+
+•	Check-in Dashboard and Logs
+
+__Integrate existing data__
+
+Due to Covid, the launch date of the gym cannot be confirmed. 
+If the present app is not available in time for launch, an interim app will be used. 
+KR/GC to investigate integrating data from the interim app into the current app. 
+
+__Action Items__
+
+KR to research Adyen, compare with Stripe and recommend solution to client.
+KR/GC to investigate use of electronic signatures for members to sign waivers. 
+KR/GC to investigate integrating data from the interim app into the current app if required. 
+
+
 ## Project Management
 
 ### Planning Methodology
