@@ -131,11 +131,6 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 
 *Note - emphasised user stories represent the Minimum Viable Product.*
 
-###
-
-
-
-
 ## Wireframes
 
 ## Trello Board
@@ -189,29 +184,31 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 #### Challenges & Difficulty Rating
 
 - **Member Onboarding**
-  - Difficulty - *Medium*
+  - Difficulty - *Hard*
   - Challenges
-    - 
+    - Member Photo Upload
+    - Digital Waivers and Signature Collection
 
 - **Check-in System**
   - Difficulty - *Hard*
   - Challenges
-    - 
+    - QR Code Check-In Implementation
 
 - **Member Dashboard**
   - Difficulty - *Medium*
   - Challenges
-    - 
+    - Staff Communication Channel
 
 - **Owner Dashboard**
   - Difficulty - *Medium*
   - Challenges
-    - 
+    - Member Insights
 
 - **Billing System**
   - Difficulty - *Hard*
   - Challenges
-    - 
+    - Third-Party Payment System
+    - Physical Cash Register Integration
 
 #### Minimum Viable Product
 
