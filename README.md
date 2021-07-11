@@ -67,16 +67,16 @@ The purpose of this application is to present an all-in-one solution for managin
 - Waiver Signing
 - Welcome Email
 
+**Check-in System**
+- QR Code / Email / Phone Number Check-in
+- Live Check-in View (Recent Check-in Displayed)
+- Historical Check-in Logs
+
 **Member Dashboard**
 - Edit Profile
 - Change Membership
 - Update Payment Details
 - Contact Gym Owner
-
-**Check-in Dashboard**
-- Third-party Tag System Integration
-- Live Check-in View (Recent Check-in Displayed)
-- Historical Check-in Logs
 
 **Owner Dashboard**
 - Basic Member Insights
@@ -91,7 +91,7 @@ The purpose of this application is to present an all-in-one solution for managin
 
 ### Target Audience
 
-The target audience for this application is our client - **1UP Bouldering Gym**.
+The target audience for this application is our client, **1UP Bouldering Gym**, and its membership base.
 
 ### Tech Stack
 
@@ -121,33 +121,15 @@ The target audience for this application is our client - **1UP Bouldering Gym**.
 
 ## User Stories
 
-**Member Dashboard**
-- Edit Profile
-- Change Membership
-- Update Payment Details
-- Contact Gym Owner
-
-**Owner Dashboard**
-- Basic Member Insights
-- Raw Data Dump
-- Outstanding Payments
-- Feedback / Queries
-- Marketing Emails (Promotions)
-
-**Billing System**
-- Third-party Payment Integration
-- Payment Emails (Successful / Reminders / Missed)
-
 |Epic|Story|
 |:-:|:--|
-|Member Onboarding| *As an owner, I want an intuitive frictionless sign-up interface, so I can quickly onboard new members.* <br> *As an owner, I want to capture individual member profiles, so I can leverage data analytics to improve my service offering.* <br> *As an owner, I want to shoot and store member photos, so I can verify their identity on entry.* <br> *As an owner, I want to provide multiple membership types, so my members have payment flexibility.* <br> *As an owner, I want to collect member payment details, so I can set up recurring direct debits.* <br> *As an owner, I want to display a waiver and collect digital signatures, so I can be sure that my members understand their rights.*
-|Check-in System| *As a member, I want to manually check-in with the application, in case I arrived at the gym without my tag.* <br> *As an owner, I want a live view of new check-ins, so I can evaluate each member entering the gym at a glance.* <br> *As an owner, I want to see a full historical log of check-ins, so I can identify any anomalous behaviour.* <br> As a member, I want to check-in with a tag, so there is minimal delay on entry to the gym.|
-|Member Dashboard|  |
-|Owner Dashboard|  |
-|Billing System|  |
+|Member Onboarding| *As an owner, I want an intuitive frictionless sign-up interface, so I can quickly onboard new members.* <br> *As an owner, I want to capture individual member profiles, so I can leverage data analytics to improve my service offering.* <br> *As an owner, I want to shoot and store member photos, so I can verify their identity on entry.* <br> *As an owner, I want to provide multiple membership types, so my members have payment flexibility.* <br> *As an owner, I want to collect member payment details, so I can set up recurring direct debits.* <br> ~~*As an owner, I want to display a waiver and collect digital signatures, so I can be sure that my members understand their rights.*~~ <br> *As an owner, I want to present a waiver to new members and store attributed digital signatures, so I have an audit trail for my legal requirements.* |
+|Check-in System| *As a member, I want to manually check-in with my email or phone number, in case I arrived at the gym without my QR Code.* <br> *As an owner, I want a live view of new check-ins, so I can evaluate each member entering the gym at a glance.* <br> *As an owner, I want to see a full historical log of check-ins, so I can identify any anomalous behaviour.* <br> As an owner, I want to generate a unique QR code for each member, so they can quickly scan it to check-in at the door. |
+|Member Dashboard| As a member, I want to be able to edit my profile, so my details are always up to date. <br> As a member, I want the option to change my membership type, so I can be flexible with my billing cycle. <br> As a member, I want to edit my payment details in the portal, so I can avoid billing issues. <br> As a member, I want a communication channel with the staff, so I can contact them if there are any issues. |
+|Owner Dashboard| As an owner, I want to view basic insights on membership data at a glance, so I can quickly identify systemic or business issues. <br> As an owner, I want to have access to the raw membership data (csv format), so I can perform custom data analytics procedures. <br> As an owner, I want to identify outstanding membership payments at a glance, so I can resolve issues before revenue is impacted non-trivially. <br> As an owner, I want to communicate with my members via the application, to answer queries in a timely manner and improve brand perception. <br> As an owner, I want to send mass marketing emails to selected or all members, so I can execute marketing strategies effectively. |
+|Billing System| As an owner, I want to use a reputable third party payment system, so my billing process is frictionless and my members can be certain that their details are secure. <br> As a member, I want to receive emails regarding my membership payments, so I have a permanent record of invoices. |
 
-
-*Note - emphasised user stories represent the inimum Viable Product.*
+*Note - emphasised user stories represent the Minimum Viable Product.*
 
 ###
 
@@ -211,53 +193,25 @@ The target audience for this application is our client - **1UP Bouldering Gym**.
   - Challenges
     - 
 
-- Member Profile
-- Membership Type
-- Payment Details
-- Waiver Signing
-- Welcome Email
-
 - **Check-in System**
   - Difficulty - *Hard*
   - Challenges
     - 
-
-- Third-party Tag System Integration
-- Live Check-in View (Most recent check-in displayed, running log)
-- Historical Check-in Logs
 
 - **Member Dashboard**
   - Difficulty - *Medium*
   - Challenges
     - 
 
-
-- Edit Profile
-- Change Membership
-- Update Payment Details
-- Contact Gym Owner
-
-
 - **Owner Dashboard**
   - Difficulty - *Medium*
   - Challenges
     - 
 
-
-- Basic Member Insights
-- Outstanding Payments
-- Feedback / Queries
-- Marketing Emails (Promotions)
-
 - **Billing System**
   - Difficulty - *Hard*
   - Challenges
     - 
-
-
-- Third-party Payment Integration
-- Payment Emails (Successful / Reminders / Missed)
-
 
 #### Minimum Viable Product
 
@@ -270,7 +224,7 @@ The target audience for this application is our client - **1UP Bouldering Gym**.
   - Waiver Signing
 
 - **Check-in System**
-  - Manual Check-in Portal
+  - Manual Check-in Portal (Email / Phone Number)
   - Live Check-in View (Most recent check-in displayed, running log)
   - Historical Check-in Logs 
 
@@ -278,8 +232,8 @@ The target audience for this application is our client - **1UP Bouldering Gym**.
 
 Noting the limited time-frame for this assignment, we present stopgap solutions in lieu of more challenging features until they can be developed and deployed. Ideally these will be completed and tested prior to the launch of the gym.
 
-- **Integrated Check-in System**
-  - We could implement a temporary portal for members to check-in on entry using their name and date of birth.
+- **QR Code Check-in System**
+  - We could implement a temporary portal for members to check-in on entry using their email or phone number.
 - **Member Dashboard**
   - Members could sit down with the gym owner at the reception in order to have their details updated in the database.
 - **Owner Dashboard**
