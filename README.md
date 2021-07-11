@@ -25,6 +25,8 @@
 
 ## Table of Contents
 
+<!-- finalise when documentation complete -->
+
 - **[R1 - Description](#description)**
   - **[Purpose](#purpose)**
   - **[Features](#features)**
@@ -146,6 +148,9 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 **10/07/21**
 ![100721](./docs/trello/03_100721.png)
 
+**11/07/21**
+![110721](./docs/trello/04_110721.png)
+
 ## Client Engagement
 
 ### Meetings
@@ -162,6 +167,8 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 ## Project Management
 
 ### Planning Methodology
+
+
 
 <!-- Agile Principles -->
 <!-- Feature Prioritisation -->
@@ -208,6 +215,7 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
   - Difficulty - *Hard*
   - Challenges
     - Third-Party Payment System
+    - Recurring Payments
     - Physical Cash Register Integration
 
 #### Minimum Viable Product
@@ -245,6 +253,10 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 ### Roadmap
 
 <!-- Features -> User Stories -> Estimated Timelines -->
+
+### Database Structure
+
+<!-- entity relationship diagram -->
 
 ### Automated Test Suite
 
