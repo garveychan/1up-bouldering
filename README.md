@@ -178,7 +178,7 @@ In applying the principles of Agile, we first break our product down into its **
 
 By identifying the **constituent** pillars of our application and prioritising them to define our **Minimum Viable Product**, we allow ourselves to prepare incremental features and put them through our **user testing pipeline** - gathering important **feedback** and **adapting** our solution for new requirements. In doing so, we must also employ best practice coding principles to keep our features and modules **loosely coupled** in support of a more **maintainable** codebase.
 
-![Agile Release Train](./docs/assets/agile_release_train.svg)
+![Agile Release Train](./docs/assets/agile_release_train.png)
 *Credit: Atlassian*
 
 #### Communication
@@ -203,7 +203,7 @@ Individual cards on the **Kanban board** will be distilled from the **Epic** bei
 
 **Cycle time** will be measured as a key metric for success in the project, helping to identify **bottlenecks** which can be resolved with **code review**, **pair programming** and **knowledge sharing**. A preliminary **Work In Progress (WIP) Limit** of 3 cards within the **review** state of the Kanban board will prevent the project from moving forward in the wrong direction as unresolved issues may necessitate a redesign of the application's underlying architecture. This limit will be reviewed with each **Daily Retrospective** and adjusted to match the throughput of the team.
 
-![Agile Workflow](./docs/assets/agile_workflow.svg)
+![Agile Workflow](./docs/assets/agile_workflow.png)
 *Credit: Atlassian*
 
 ### Feature Mapping
