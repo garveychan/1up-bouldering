@@ -168,19 +168,43 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 
 ### Planning Methodology
 
+The planning of this project adheres to the principles of Agile project management, leveraging relevant techniques and methodologies to maximise the benefits of collaboration, respond quickly to client feedback and accelerate development speed.
 
+#### Blueprint
 
-<!-- Agile Principles -->
-<!-- Feature Prioritisation -->
-<!-- Outlining Epics, developing User Stories -->
-<!-- Identifying challenges of user stories -->
+In applying the principles of Agile, we first break our product down into its **core components**, using these to outline our **Epics** which we segment into individual **User Stories**. The **challenges** and **difficulty levels** of each user story are identified to support an **evidence-based** approach towards **estimating** each task's **resource requirements**. These data points can then be used to outline a **roadmap** for tracking and measuring **incremental progress** within the project timeline, allowing our plan to evolve as events unfold.
+
+#### Development
+
+By identifying the **constituent** pillars of our application and prioritising them to define our **Minimum Viable Product**, we allow ourselves to prepare incremental features and put them through our **user testing pipeline** - gathering important **feedback** and **adapting** our solution for new requirements. In doing so, we must also employ best practice coding principles to keep our features and modules **loosely coupled** in support of a more **maintainable** codebase.
+
+![Agile Release Train](./docs/assets/agile_release_train.svg)
+*Credit: Atlassian*
+
+#### Communication
+
+Separate communication channels have been established, each pertaining to a major requirement of the project. Categorising the discussions in this way will prove helpful for **future reference**, particularly as the complexity of the project continues to grow. A separate channel has been created to serve as an **audit trail** for client engagement.
+
+|Category|Channel|
+|:--|:--|
+|Client Engagement|General, Feedback, Meetings|
+|Project Management|General, Docs & Design, Version Control, Development, User Testing, Production|
+|Features|Profiles, Insights, Check-Ins, Payments, Styling|
 
 ### Delegation Methodology
 
-<!-- Describe Trello workflow -->
-<!-- Story cards for Kanban and subtasks as checklist items in each story card -->
-<!-- tasks delegated by familiarity and experience with subject matter e.g. Strip Integration, Tailwind -->
-<!-- progress evaluated against schedule and team to converge on blocked tasks as necessary -->
+The delegation of tasks within this project is executed and managed through the use of a traditional [**Kanban Board**](https://trello.com/b/a1wC5ZhV/full-stack-app-t3a2-1up-bouldering) on **Trello**. The Kanban approach was chosen for its **continuous flow**, with the expectation that project requirements will change as the development of the application progresses and **regular feedback** from user and client testing is incorporated. 
+
+#### Tasks
+
+Individual cards on the **Kanban board** will be distilled from the **Epic** being developed within that particular cycle. Each of these cards will align with a single **User Story**, broken down into **subtasks** and attached as a checklist. Having defined all user stories with consideration for their **challenges** and **difficulty**, each card will be delegated based on the developer's **familiarity** and **experience** with the subject matter.
+
+#### Performance
+
+**Cycle time** will be measured as a key metric for success in the project, helping to identify **bottlenecks** which can be resolved with **code review**, **pair programming** and **knowledge sharing**. A preliminary **Work In Progress (WIP) Limit** of 3 cards within the **review** state of the Kanban board will prevent the project from moving forward in the wrong direction as unresolved issues may necessitate a redesign of the application's underlying architecture. This limit will be reviewed with each **Daily Retrospective** and adjusted to match the throughput of the team.
+
+![Agile Workflow](./docs/assets/agile_workflow.svg)
+*Credit: Atlassian*
 
 ### Feature Mapping
 
@@ -248,9 +272,9 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 - **Email Communication**
   - Members could be contacted via their phone numbers.
 
-## Development Process
+## Development
 
-### Roadmap
+### Initial Product Roadmap
 
 <!-- Features -> User Stories -> Estimated Timelines -->
 
@@ -258,11 +282,17 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 <!-- entity relationship diagram -->
 
+### Visual Sitemap
+
+<!-- sitemap -->
+
+## Testing
+
 ### Automated Test Suite
 
 <!-- test-driven development guidelines -->
 
-### User Testing Framework
+### User Acceptance Testing
 
 <!-- describe workflow and tools (surveys, etc.) -->
 
