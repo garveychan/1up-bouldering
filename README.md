@@ -151,6 +151,9 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 **11/07/21**
 ![110721](./docs/trello/04_110721.png)
 
+**12/07/21**
+![120721](./docs/trello/05_120721.png)
+
 ## Client Engagement
 
 ### Meetings
