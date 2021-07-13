@@ -119,7 +119,11 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 
 ## Dataflow Diagram
 
+![Dataflow diagram](./docs/diagrams/dataflow_diagram_08Jul2021.png)
+
 ## Application Architecture Diagram
+
+![Architecture diagram](./docs/diagrams/ApplicationArchitectureDiagram.png)
 
 ## User Stories
 
@@ -150,6 +154,10 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 
 **11/07/21**
 ![110721](./docs/trello/04_110721.png)
+
+**13/07/21**
+![130721](./docs/trello/05_13072021.png)
+![130721](./docs/trello/06_13072021.png)
 
 ## Client Engagement
 
@@ -284,7 +292,7 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 ### Visual Sitemap
 
-<!-- sitemap -->
+![080721](./docs/diagrams/1UPBouldering_sitemap_12Jul2021.png)
 
 ## Testing
 
