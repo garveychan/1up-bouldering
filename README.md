@@ -131,13 +131,80 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 |:-:|:--|
 |Member Onboarding| *As an owner, I want an intuitive frictionless sign-up interface, so I can quickly onboard new members.* <br> *As an owner, I want to capture individual member profiles, so I can leverage data analytics to improve my service offering.* <br> *As an owner, I want to shoot and store member photos, so I can verify their identity on entry.* <br> *As an owner, I want to provide multiple membership types, so my members have payment flexibility.* <br> *As an owner, I want to collect member payment details, so I can set up recurring direct debits.* <br> ~~*As an owner, I want to display a waiver and collect digital signatures, so I can be sure that my members understand their rights.*~~ <br> *As an owner, I want to present a waiver to new members and store attributed digital signatures, so I have an audit trail for my legal requirements.* |
 |Check-in System| *As a member, I want to manually check-in with my email or phone number, in case I arrived at the gym without my QR Code.* <br> *As an owner, I want a live view of new check-ins, so I can evaluate each member entering the gym at a glance.* <br> *As an owner, I want to see a full historical log of check-ins, so I can identify any anomalous behaviour.* <br> As an owner, I want to generate a unique QR code for each member, so they can quickly scan it to check-in at the door. |
-|Member Dashboard| As a member, I want to be able to edit my profile, so my details are always up to date. <br> As a member, I want the option to change my membership type, so I can be flexible with my billing cycle. <br> As a member, I want to edit my payment details in the portal, so I can avoid billing issues. <br> As a member, I want a communication channel with the staff, so I can contact them if there are any issues. |
-|Owner Dashboard| As an owner, I want to view basic insights on membership data at a glance, so I can quickly identify systemic or business issues. <br> As an owner, I want to have access to the raw membership data (csv format), so I can perform custom data analytics procedures. <br> As an owner, I want to identify outstanding membership payments at a glance, so I can resolve issues before revenue is impacted non-trivially. <br> As an owner, I want to communicate with my members via the application, to answer queries in a timely manner and improve brand perception. <br> As an owner, I want to send mass marketing emails to selected or all members, so I can execute marketing strategies effectively. |
+|Member Dashboard| As a member, I want to be able to edit my profile, so my details are always up to date. <br> As a member, I want the option to change my membership type, so I can be flexible with my billing cycle. <br> As a member, I want to edit my payment details in the portal, so I can avoid billing issues. <br> **As a member, I want a communication channel with the staff, so I can contact them if there are any issues.** |
+|Owner Dashboard| As an owner, I want to view basic insights on membership data at a glance, so I can quickly identify systemic or business issues. <br> **As an owner, I want to have access to the raw membership data (csv format), so I can perform custom data analytics procedures.** <br> As an owner, I want to identify outstanding membership payments at a glance, so I can resolve issues before revenue is impacted non-trivially. <br> **As an owner, I want to communicate with my members via the application, to answer queries in a timely manner and improve brand perception.** <br> As an owner, I want to send mass marketing emails to selected or all members, so I can execute marketing strategies effectively. |
 |Billing System| As an owner, I want to use a reputable third party payment system, so my billing process is frictionless and my members can be certain that their details are secure. <br> As a member, I want to receive emails regarding my membership payments, so I have a permanent record of invoices. |
 
-*Note - emphasised user stories represent the Minimum Viable Product.*
+*Notes -* 
+- *italicised user stories represent the Minimum Viable Product.*
+- *emphasised and crossed out user stories were updated following client feedback.*
 
 ## Wireframes
+
+#### UI / UX Considerations
+
+In developing the wireframes and prototypes for our application's front-end, we adhered to first principles of quality web design such as establishing a **visual hierarchy**, **F-shaped pattern reading** and **intuitive navigation**. These guidelines allowed us to construct user journeys with minimal friction that align with our client's requirements.
+
+#### Prototypes
+
+##### [Desktop Prototype](https://www.figma.com/proto/GpZg1xsCkVtwKkjgpk6l2K/Wireframes?node-id=3%3A206&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A206&hide-ui=1)
+
+##### [Mobile Prototype](https://www.figma.com/proto/wSmxFUieO5vC3xvPgNf2aM/Wireframes-Mobile?page-id=0%3A1&node-id=3%3A206&scaling=scale-down&starting-point-node-id=3%3A206&hide-ui=1)
+
+![Desktop Overview](./docs/wireframes/wireframes_desktop_overview.png)
+![Mobile Overview](./docs/wireframes/wireframes_mobile_overview.png)
+
+##### Laws of UX - Aesthetic-Usability Effect
+  - Users often perceive aesthetically pleasing design as design that’s more usable.
+  - In order to achieve this effect, we leverage TailwindCSS to build modern and performant styled components with thoughtful spacing, typography, shadows, and colour choices. 
+
+#### Check-In Portal
+
+![Check-In Portal](./docs/wireframes/checkin_portal.png)
+
+##### Laws of UX - Fitts' Law
+  - The time to acquire a target is a function of the distance to and size of the target.
+  - The objective of the check-in portal is to provide an efficient way for members to signal their presence on entry to the gym.
+  - As we want to avoid multiple gym entrants lining up on the terminals and causing delays, the key metric here is check-in time.
+  - Fitts' Law has been applied in implementing the check-in functionality at the forefront of the portal, minimising the time required for members to identify themselves.
+
+#### Login / Password Recovery
+
+![Login / Password Recovery](./docs/wireframes/login_recovery.png)
+
+##### Laws of UX - Jakob's Law
+  - Users will transfer expectations they have built around one familiar product to another that appears similar.
+  - In this case, we implement universal login and password recovery forms.
+
+#### Member Onboarding
+
+![Member Onboarding 1](./docs/wireframes/onboarding_1.png)
+![Member Onboarding 2](./docs/wireframes/onboarding_2.png)
+![Member Onboarding 3](./docs/wireframes/onboarding_3.png)
+
+##### Functions
+  - Instant input validation error message feedback.
+  - Scrollable acknowledgements and waivers.
+
+##### Laws of UX - Goal Gradient Effect
+  - The tendency to approach a goal increases with proximity to the goal.
+  - By displaying indicators at the top of each onboarding page, we provide a clear indication of progress in order to motivate users to complete the task.
+
+#### Member Dashboard
+
+##### Functions
+  - Instant input validation error message feedback.
+
+![Member Dashboard](./docs/wireframes/member_dashboard.png)
+
+#### Admin Dashboard
+
+##### Functions
+  - Scrollable member list with pagination.
+  - Search/filter members by keyword or attribute.
+
+![Admin Dashboard](./docs/wireframes/admin_dashboard.png)
+![Admin Dashboard](./docs/wireframes/admin_dashboard_searched.png)
 
 ## Trello Board
 
@@ -166,6 +233,9 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 
 **15/07/21**
 ![150721](./docs/trello/08_150721.png)
+
+**16/07/21**
+![160721](./docs/trello/09_160721.png)
 
 ## Client Engagement
 
@@ -302,20 +372,18 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 ![080721](./docs/diagrams/1UPBouldering_sitemap_12Jul2021.png)
 
-## Testing
+## User Acceptance Testing
 
-### Automated Test Suite
-
-<!-- test-driven development guidelines -->
-
-### User Acceptance Testing
+### Testing Framework
 
 <!-- describe workflow and tools (surveys, etc.) -->
 
-### User Testing Results
+<!-- Part B Documentation below -->
 
-#### Development Environment
+<!-- ### Results -->
 
-#### Production Environment (with Client)
+<!-- #### Development Environment -->
 
-## Website Screenshots
+<!-- #### Production Environment (with Client) -->
+
+<!-- ## Website Screenshots -->
