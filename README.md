@@ -14,18 +14,17 @@
 
 #### R10 - Deployed Website
 
-**[1UP Bouldering Gym Application Portal](https://)**
+**[1UP Bouldering Gym Application Portal]()**
 
 #### R11 - Github Repositories
 
 **[Front-End Repository](https://github.com/garveycodes/t3a2-full-stack-app-front)**
-**[Back-End Repository](https://github.com/t3a2-full-stack-app-back)**
+
+**[Back-End Repository](https://github.com/garveycodes/t3a2-full-stack-app-back)**
 
 <hr>
 
 ## Table of Contents
-
-<!-- finalise when documentation complete -->
 
 - **[R1 - Description](#description)**
   - **[Purpose](#purpose)**
@@ -41,13 +40,23 @@
   - **_[Meetings](#meetings)_**
 - **_[Project Management](#project-management)_**
   - **_[Planning Methodology](#planning-methodology)_**
+    - **_[Blueprint](#blueprint)_**
+    - **_[Development](#development)_**
+    - **_[Communication](#communication)_**
   - **_[Delegation Methodology](#delegation-methodology)_**
-  - **_[Feature Prioritisation](#feature-prioritisation)_**
+    - **_[Tasks](#tasks)_**
+    - **_[Performance](#performance)_**
+  - **_[Feature Mapping](#feature-mapping)_**
+  - **_[Prioritisation Matrix](#prioritisation-matrix)_**
+  - **_[Challenges & Difficulty Rating](#challenges--difficulty-rating)_**
+  - **_[Minimum Viable Product](#minimum-viable-product)_**
 - **_[Development Process](#development-process)_**
-  - **_[Roadmap](#roadmap)_**
-  - **_[User Testing Framework](#user-testing-framework)_**
-  - **_[Automated Test Suite](#automated-test-suite)_**
-  - **_[User Testing Results](#user-testing-results)_**
+  - **_[Initial Product Roadmap](#initial-product-roadmap)_**
+  - **_[Entity Relationship Diagram](#entity-relationship-diagram)_**
+  - **_[Visual Sitemap](#visual-sitemap)_**
+  - **_[User Acceptance Testing](#user-acceptance-testing)_**
+  - **_[Testing Framework](#testing-framework)_**
+  - **_[Test Results](#results)_**
     - **_[Development Environment](#development-environment)_**
     - **_[Production Environment](#production-environment-with-client)_**
 - **_[Website Screenshots](#website-screenshots)_**
@@ -358,13 +367,13 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 - **Email Communication**
   - Members could be contacted via their phone numbers.
 
-## Development
+## Development Process
 
 ### Initial Product Roadmap
 
 <!-- Features -> User Stories -> Estimated Timelines -->
 
-### Database Structure
+### Entity Relationship Diagram
 
 <!-- entity relationship diagram -->
 
@@ -380,10 +389,10 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 <!-- Part B Documentation below -->
 
-<!-- ### Results -->
+### Results
 
-<!-- #### Development Environment -->
+#### Development Environment
 
-<!-- #### Production Environment (with Client) -->
+#### Production Environment (with Client)
 
-<!-- ## Website Screenshots -->
+## Website Screenshots
