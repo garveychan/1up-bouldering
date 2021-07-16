@@ -41,7 +41,7 @@
 - **_[Project Management](#project-management)_**
   - **_[Planning Methodology](#planning-methodology)_**
     - **_[Blueprint](#blueprint)_**
-    - **_[Development](#development)_**
+    - **_[Development Process](#development-process)_**
     - **_[Communication](#communication)_**
   - **_[Delegation Methodology](#delegation-methodology)_**
     - **_[Tasks](#tasks)_**
@@ -50,15 +50,17 @@
   - **_[Prioritisation Matrix](#prioritisation-matrix)_**
   - **_[Challenges & Difficulty Rating](#challenges--difficulty-rating)_**
   - **_[Minimum Viable Product](#minimum-viable-product)_**
-- **_[Development Process](#development-process)_**
+- **_[Development](#development)_**
   - **_[Initial Product Roadmap](#initial-product-roadmap)_**
   - **_[Entity Relationship Diagram](#entity-relationship-diagram)_**
   - **_[Visual Sitemap](#visual-sitemap)_**
+- **_[Part B](#part-b)_**
   - **_[User Acceptance Testing](#user-acceptance-testing)_**
-  - **_[Testing Framework](#testing-framework)_**
-  - **_[Test Results](#results)_**
-    - **_[Development Environment](#development-environment)_**
-    - **_[Production Environment](#production-environment-with-client)_**
+    - **_[Testing Framework](#testing-framework)_**
+    - **_[Test Results](#results)_**
+      - **_[Development Environment](#development-environment)_**
+      - **_[Production Environment](#production-environment-with-client)_**
+  - **_[Libraries Used](#libraries-used)_**
 - **_[Website Screenshots](#website-screenshots)_**
 
 <hr>
@@ -269,7 +271,7 @@ The planning of this project adheres to the principles of Agile project manageme
 
 In applying the principles of Agile, we first break our product down into its **core components**, using these to outline our **Epics** which we segment into individual **User Stories**. The **challenges** and **difficulty levels** of each user story are identified to support an **evidence-based** approach towards **estimating** each task's **resource requirements**. These data points can then be used to outline a **roadmap** for tracking and measuring **incremental progress** within the project timeline, allowing our plan to evolve as events unfold.
 
-#### Development
+#### Development Process
 
 By identifying the **constituent** pillars of our application and prioritising them to define our **Minimum Viable Product**, we allow ourselves to prepare incremental features and put them through our **user testing pipeline** - gathering important **feedback** and **adapting** our solution for new requirements. In doing so, we must also employ best practice coding principles to keep our features and modules **loosely coupled** in support of a more **maintainable** codebase.
 
@@ -367,7 +369,7 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 - **Email Communication**
   - Members could be contacted via their phone numbers.
 
-## Development Process
+## Development
 
 ### Initial Product Roadmap
 
@@ -381,18 +383,18 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 ![080721](./docs/diagrams/1UPBouldering_sitemap_12Jul2021.png)
 
-## User Acceptance Testing
+## Part B
 
-### Testing Framework
+### User Acceptance Testing
 
-<!-- describe workflow and tools (surveys, etc.) -->
+#### Testing Framework
 
-<!-- Part B Documentation below -->
+#### Results
 
-### Results
+##### Development Environment
 
-#### Development Environment
+##### Production Environment (with Client)
 
-#### Production Environment (with Client)
+### Libraries Used
 
-## Website Screenshots
+### Website Screenshots
