@@ -284,6 +284,9 @@ In developing the wireframes and prototypes for our application's front-end, we 
 **16/07/21**
 ![160721](./docs/trello/09_160721.png)
 
+**17/07/21**
+![170721](./docs/trello/10_170721.png)
+
 ## Client Engagement
 
 ### Meetings
