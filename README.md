@@ -31,7 +31,7 @@
   - **[Features](#features)**
   - **[Target Audience](#target-audience)**
   - **[Tech Stack](#tech-stack)**
-- **[R2 - Dataflow Diagram](#dataflow-diagram)**
+- **[R2 - Dataflow Diagrams](#dataflow-diagrams)**
 - **[R3 - Application Architecture Diagram](#application-architecture-diagram)**
 - **[R4 - User Stories](#user-stories)**
 - **[R5 - Wireframes](#wireframes)**
@@ -128,9 +128,45 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 
 - **Heroku** - Container-based Cloud Platform as a Service (PaaS) used to deploy, manage, and scale modern apps.
 
-## Dataflow Diagram
+## Data Flow Diagrams
 
-![Dataflow diagram](./docs/diagrams/DFD_Level0_1UPBouldering_15Jul2021.png)
+The following data flow diagrams represent the full app. A subset of these diagrams will serve as a reference for the minimum viable product.
+
+**Level 0 data flow diagram showing a high level overview of data flow within the app:**
+
+![Dataflow diagram level 0](./docs/diagrams/DFD_Level0_1UPBouldering_17Jul2021.png)
+
+**Level 1 data flow diagrams showing the data flow for each process within the app:**
+
+Member Onboarding:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P1_MemberOnboarding_15Jul2021.png)
+
+Edit Member Profile:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P2_EditMemberProfile_15Jul2021.png)
+
+Member Check-In:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P3_MemberCheckIn_15Jul2021.png)
+
+Contact Gym Staff:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P4_ContactGymStaff_17Jul2021.png)
+
+Admin User Sign Up:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P5_AdminSignup_15Jul2021.png)
+
+Edit Admin User Account:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P6_EditAdminAccount_15Jul2021.png)
+
+Check-In Sessions Dashboard:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P7_CheckinDashboard_15Jul2021.png)
+
+View List of Members:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P8_ViewMembers_15Jul2021.png)
+
+View Payment Status:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P9_ViewPaymentStatus_15Jul2021.png)
+
+Respond to Member Queries:
+![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P10_RespondQueries_17Jul2021.png)
 
 ## Application Architecture Diagram
 
@@ -219,7 +255,7 @@ In developing the wireframes and prototypes for our application's front-end, we 
 
 ## Trello Board
 
-#### [Link](https://trello.com/b/a1wC5ZhV/full-stack-app-t3a2-1up-bouldering)
+#### [Link to Trello Board](https://trello.com/b/a1wC5ZhV/full-stack-app-t3a2-1up-bouldering)
 
 **08/07/21**
 ![080721](./docs/trello/01_080721.png)
