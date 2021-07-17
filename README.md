@@ -128,13 +128,15 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 
 - **Heroku** - Container-based Cloud Platform as a Service (PaaS) used to deploy, manage, and scale modern apps.
 
-## Dataflow Diagrams
+## Data Flow Diagrams
 
-**Level 0 dataflow diagram showing a high level overview of data flow within the app:**
+The following data flow diagrams represent the full app. A subset of these diagrams will serve as a reference for the minimum viable product.
+
+**Level 0 data flow diagram showing a high level overview of data flow within the app:**
 
 ![Dataflow diagram level 0](./docs/diagrams/DFD_Level0_1UPBouldering_17Jul2021.png)
 
-**Level 1 dataflow diagrams showing the data flow for each process within the app:**
+**Level 1 data flow diagrams showing the data flow for each process within the app:**
 
 Member Onboarding:
 ![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P1_MemberOnboarding_15Jul2021.png)
@@ -253,7 +255,7 @@ In developing the wireframes and prototypes for our application's front-end, we 
 
 ## Trello Board
 
-#### [Link](https://trello.com/b/a1wC5ZhV/full-stack-app-t3a2-1up-bouldering)
+#### [Link to Trello Board](https://trello.com/b/a1wC5ZhV/full-stack-app-t3a2-1up-bouldering)
 
 **08/07/21**
 ![080721](./docs/trello/01_080721.png)
