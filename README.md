@@ -61,7 +61,7 @@
       - **_[Development Environment](#development-environment)_**
       - **_[Production Environment](#production-environment-with-client)_**
   - **_[Libraries Used](#libraries-used)_**
-- **_[Website Screenshots](#website-screenshots)_**
+  - **_[Website Screenshots](#website-screenshots)_**
 
 <hr>
 
