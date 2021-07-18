@@ -31,7 +31,7 @@
   - **[Features](#features)**
   - **[Target Audience](#target-audience)**
   - **[Tech Stack](#tech-stack)**
-- **[R2 - Dataflow Diagrams](#data-flow-diagrams)**
+- **[R2 - Data Flow Diagrams](#dataflow-diagrams)**
 - **[R3 - Application Architecture Diagram](#application-architecture-diagram)**
 - **[R4 - User Stories](#user-stories)**
 - **[R5 - Wireframes](#wireframes)**
@@ -48,7 +48,7 @@
     - **_[Performance](#performance)_**
   - **_[Feature Mapping](#feature-mapping)_**
   - **_[Prioritisation Matrix](#prioritisation-matrix)_**
-  - **_[Challenges & Difficulty Rating](#challenges--difficulty-rating)_**
+  - **_[Challenges and Ratings](#challenges-and-ratings)_**
   - **_[Minimum Viable Product](#minimum-viable-product)_**
   - **_[Product Roadmap](#product-roadmap)_**
 - **_[Further Diagrams](#further-diagrams)_**
@@ -130,6 +130,8 @@ The target audience for this application is our client, **1UP Bouldering Gym**, 
 
 - **Heroku** - Container-based Cloud Platform as a Service (PaaS) used to deploy, manage, and scale modern apps.
 
+<hr>
+
 ## Data Flow Diagrams
 
 The following data flow diagrams represent the full app. A subset of these diagrams will serve as a reference for the minimum viable product.
@@ -170,9 +172,13 @@ View Payment Status:
 Respond to Member Queries:
 ![Dataflow diagram level 1](./docs/diagrams/DFD_Level1_P10_RespondQueries_17Jul2021.png)
 
+<hr>
+
 ## Application Architecture Diagram
 
 ![Architecture diagram](./docs/diagrams/ApplicationArchitectureDiagram.png)
+
+<hr>
 
 ## User Stories
 
@@ -187,6 +193,8 @@ Respond to Member Queries:
 *Notes -* 
 - *italicised user stories represent the Minimum Viable Product.*
 - *emphasised and crossed out user stories were updated following client feedback.*
+
+<hr>
 
 ## Wireframes
 
@@ -223,7 +231,7 @@ In developing the wireframes and prototypes for our application's front-end, we 
 
 ##### Laws of UX - Jakob's Law
   - Users will transfer expectations they have built around one familiar product to another that appears similar.
-  - In this case, we implement universal login and password recovery forms.
+  - In this case, we implement universally recognised login and password recovery forms.
 
 #### Member Onboarding
 
@@ -254,6 +262,8 @@ In developing the wireframes and prototypes for our application's front-end, we 
 
 ![Admin Dashboard](./docs/wireframes/admin_dashboard.png)
 ![Admin Dashboard](./docs/wireframes/admin_dashboard_searched.png)
+
+<hr>
 
 ## Trello Board
 
@@ -292,6 +302,8 @@ In developing the wireframes and prototypes for our application's front-end, we 
 **18/07/21**
 ![180721](./docs/trello/11_180721.png)
 
+<hr>
+
 ## Client Engagement
 
 ### Meetings
@@ -304,6 +316,8 @@ In developing the wireframes and prototypes for our application's front-end, we 
 #### 11am Saturday 10/07/21
 
 ![100721 Meeting Notes](./docs/meetings/png/01_100721.png)
+
+<hr>
 
 ## Project Management
 
@@ -353,7 +367,7 @@ Individual cards on the **Kanban board** will be distilled from the **Epic** bei
 
 ![Prioritisation Matrix](./docs/assets/prioritisation_matrix.png)
 
-#### Challenges & Difficulty Rating
+#### Challenges and Ratings
 
 - **Member Onboarding**
   - Difficulty - *Hard*
@@ -417,6 +431,8 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 ![Roadmap](./docs/assets/roadmap.png)
 
+<hr>
+
 ## Further Diagrams
 
 ### Entity Relationship Diagram
@@ -428,6 +444,8 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 ![080721](./docs/diagrams/1UPBouldering_sitemap_12Jul2021.png)
 
 <!--
+
+<hr>
 
 ## Part B
 
