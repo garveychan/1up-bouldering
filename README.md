@@ -50,10 +50,11 @@
   - **_[Prioritisation Matrix](#prioritisation-matrix)_**
   - **_[Challenges & Difficulty Rating](#challenges--difficulty-rating)_**
   - **_[Minimum Viable Product](#minimum-viable-product)_**
-- **_[Development](#development)_**
-  - **_[Initial Product Roadmap](#initial-product-roadmap)_**
+  - **_[Product Roadmap](#product-roadmap)_**
+- **_[Further Diagrams](#further-diagrams)_**
   - **_[Entity Relationship Diagram](#entity-relationship-diagram)_**
   - **_[Visual Sitemap](#visual-sitemap)_**
+<!-- 
 - **_[Part B](#part-b)_**
   - **_[User Acceptance Testing](#user-acceptance-testing)_**
     - **_[Testing Framework](#testing-framework)_**
@@ -62,6 +63,7 @@
       - **_[Production Environment](#production-environment-with-client)_**
   - **_[Libraries Used](#libraries-used)_**
   - **_[Website Screenshots](#website-screenshots)_**
+-->
 
 <hr>
 
@@ -293,7 +295,7 @@ In developing the wireframes and prototypes for our application's front-end, we 
 
 #### Offline discussions
 
-- Client has emphasised importance of having robust data analytics capability within the system - targeting membership demographics such as age, gender, locale and trends such as frequency of use, payment cycles, etc.
+- Client has emphasised the importance of having robust data analytics capability within the system - targeting membership demographics such as age, gender, locale and trends such as frequency of use, payment cycles, etc.
 - Client would prefer membership tag system to be integrated into the application.
 
 #### 11am Saturday 10/07/21
@@ -408,11 +410,11 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 - **Email Communication**
   - Members could be contacted via their phone numbers.
 
-## Development
-
 ### Product Roadmap
 
 ![Roadmap](./docs/assets/roadmap.png)
+
+## Further Diagrams
 
 ### Entity Relationship Diagram
 
