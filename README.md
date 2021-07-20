@@ -302,6 +302,12 @@ In developing the wireframes and prototypes for our application's front-end, we 
 **18/07/21**
 ![180721](./docs/trello/11_180721.png)
 
+**19/07/21**
+![190721](./docs/trello/12_190721.png)
+
+**20/07/21**
+![200721](./docs/trello/13_200721.png)
+
 <hr>
 
 ## Client Engagement
@@ -464,3 +470,4 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 ### Website Screenshots
 
 -->
+
