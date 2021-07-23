@@ -314,6 +314,9 @@ In developing the wireframes and prototypes for our application's front-end, we 
 **22/07/21**
 ![220721](./docs/trello/15_220721.png)
 
+**23/07/21**
+![230721](./docs/trello/16_230721.png)
+
 <hr>
 
 ## Client Engagement
