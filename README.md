@@ -317,6 +317,9 @@ In developing the wireframes and prototypes for our application's front-end, we 
 **23/07/21**
 ![230721](./docs/trello/16_230721.png)
 
+**24/07/21**
+![240721](./docs/trello/17_240721.png)
+
 <hr>
 
 ## Client Engagement
@@ -458,19 +461,33 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 ![080721](./docs/diagrams/1UPBouldering_sitemap_12Jul2021.png)
 
-<!--
+
 
 <hr>
 
 ## Part B
 
 ### User Acceptance Testing
+User acceptance testing was performed by the client during development and of the app in production. The initial phase of testing included gathering user feedback with surveys through Typeform. Testing in production also included the use of the 'Usersnap' testing widget which allows users to add comments, take screenshots, write and draw to provide their feedback on the app. 
+
+#### Round 1 - Development ####
+
+4 users completed the initial survey requesting feedback on the Figma wireframes. Positive feedback on the wireframes stated the colour scheme was good and the user interface was simple and intuitive. Users reported they were impressed with the design, forms and payment system. Negative feedback included comments that the buttons and forms were not functional, the app needed additional information and the logo was too small. Additional features suggested by users included two factor authentication. 
+
+<!-- Round 2 - Production - pending  
+Will include 2nd round of Typeform surveys and Usersnap feedback -->
+
 
 #### Testing Framework
+Jest testing framework was used for unit tests of the React front end of the app. RSpec Rails was used for unit testing of the Rails back end of the app.
 
 #### Results
 
 ##### Development Environment
+
+Internal user testing followed a continuous cycle of testing in the development environment, followed by deployment to production and then testing in the production environment. All tests and outcomes for both environments were logged. Non-critical issues identified in development did not prevent deployment to production and were marked for further follow up as part of the ongoing development cycle. 
+
+<!--
 
 ##### Production Environment (with Client)
 
@@ -479,4 +496,3 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 ### Website Screenshots
 
 -->
-
