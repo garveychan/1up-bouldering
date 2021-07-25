@@ -320,6 +320,9 @@ In developing the wireframes and prototypes for our application's front-end, we 
 **24/07/21**
 ![240721](./docs/trello/17_240721.png)
 
+**25/07/21**
+![250721](./docs/trello/18_250721.png)
+
 <hr>
 
 ## Client Engagement
@@ -472,11 +475,14 @@ User acceptance testing was performed by the client during development and of th
 
 #### Round 1 - Development ####
 
-4 users completed the initial survey requesting feedback on the Figma wireframes. Positive feedback on the wireframes stated the colour scheme was good and the user interface was simple and intuitive. Users reported they were impressed with the design, forms and payment system. Negative feedback included comments that the buttons and forms were not functional, the app needed additional information and the logo was too small. Additional features suggested by users included two factor authentication. 
+5 users completed the initial survey requesting feedback on the Figma wireframes. The average score given was 8 out of 10. Positive feedback on the wireframes stated the colour scheme was good and the user interface was simple and intuitive. Users reported they were impressed with the design, forms and payment system. Negative feedback included comments that the buttons and forms were not functional, the app needed additional information and the logo was too small. Additional features suggested by users included two factor authentication and better reporting capabilities.
+
+An export of the data collected is available within the 'testing' folder. 
+
+The overall feedback on the app design was positive, therefore no significant changes were made to the design, other than to increase the size of the logo. The feedback that the buttons and forms were not functional and that detailed information and data was lacking is an inherent limitation of using prototypes to request client feedback and this will be addressed during development as the functional app is created. Two factor authentication is not a requirement for the initial release of the app and can be added in a subsequent version.
 
 <!-- Round 2 - Production - pending  
 Will include 2nd round of Typeform surveys and Usersnap feedback -->
-
 
 #### Testing Framework
 Jest testing framework was used for unit tests of the React front end of the app. RSpec Rails was used for unit testing of the Rails back end of the app.
