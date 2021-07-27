@@ -606,13 +606,21 @@ Edit Member Profile
 ### Login Details 
 
 Please use the following login details to access the production app:
+
 URL - <https://1upbouldering.app>
+
 admin username: admin@test.com
+
 admin password: password
+
 user username: user@test.com
+
 user password: password
 
-To test Stripe payments
+To test Stripe payments:
+
 Card Number - 4242424242424242
+
 Expiry Date - Can be any date in the future
-All other fields do not have specific requirements
+
+All other fields do not have specific requirements.
