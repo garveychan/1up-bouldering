@@ -480,7 +480,7 @@ The entity relationship diagram has been revised since Part A of the assignment 
 ![ERD revised](./docs/diagrams/final_ERD_MVP.png)
 
 ### User Acceptance Testing
-User acceptance testing was performed by the client during development and of the app in production. The initial phase of testing included gathering user feedback with surveys through Typeform. Testing in production is ongoing and managed with the use of the 'Usersnap' testing widget which allows users to add comments, take screenshots, write and draw to provide their feedback on the app.
+User acceptance testing was performed by the client during development and of the live app in production. Both phases of testing included gathering user feedback with surveys through Typeform. Testing and feedback in production is ongoing and managed with the use of the 'Usersnap' testing widget which allows users to add comments, take screenshots, write and draw to provide their feedback on the app.
 
 ![usersnap testing widget](./docs/testing/Screenshot_usersnap_inbox.png)
 
@@ -494,11 +494,11 @@ An export of the data collected is available in the file 'Client_typeform_survey
 
 #### Round 2 - Production
 
-5 users completed the survey requesting feedback on the live app in production. The average score given to assess the app's usefulness was 4 out of 5. Positive feedback included that the app was well-designed, user friendly and easy to follow.
+5 users completed the survey requesting feedback on the live app in production. The average score given to assess the app's usefulness and ease of use was 4 out of 5. The app was given an average score of 4.8 out of 5 for the look and feel of the software. Positive feedback included that the app was well-designed, user friendly and easy to follow.
 
 Some minor issues redirect issues were identified. These were addressed immediately as the survey responses were received.  
 
-Suggestions for future versions of the app included the ability to filter the results in the admin dashboard. 
+Suggestions for future versions of the app included the ability to filter the results in the admin dashboard.
 
 #### Testing Framework
 Jest testing framework was used for unit tests of the React front end of the app. RSpec Rails was used for unit testing of the Rails back end of the app. Cypress testing framework was used for integration testing.
