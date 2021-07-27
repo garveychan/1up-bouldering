@@ -338,6 +338,10 @@ In developing the wireframes and prototypes for our application's front-end, we 
 
 ![100721 Meeting Notes](./docs/meetings/png/01_100721.png)
 
+#### 3pm Tuesday 27/07/21
+
+![270721 Meeting Notes](./docs/meetings/png/02_270721.png)
+
 <hr>
 
 ## Project Management
@@ -471,34 +475,84 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 ## Part B
 
 ### User Acceptance Testing
-User acceptance testing was performed by the client during development and of the app in production. The initial phase of testing included gathering user feedback with surveys through Typeform. Testing in production also included the use of the 'Usersnap' testing widget which allows users to add comments, take screenshots, write and draw to provide their feedback on the app. 
+User acceptance testing was performed by the client during development and of the app in production. The initial phase of testing included gathering user feedback with surveys through Typeform. Testing in production is ongoing and managed with the use of the 'Usersnap' testing widget which allows users to add comments, take screenshots, write and draw to provide their feedback on the app.
 
 #### Round 1 - Development ####
 
-5 users completed the initial survey requesting feedback on the Figma wireframes. The average score given was 8 out of 10. Positive feedback on the wireframes stated the colour scheme was good and the user interface was simple and intuitive. Users reported they were impressed with the design, forms and payment system. Negative feedback included comments that the buttons and forms were not functional, the app needed additional information and the logo was too small. Additional features suggested by users included two factor authentication and better reporting capabilities.
-
-An export of the data collected is available within the 'testing' folder. 
+5 users completed the initial survey requesting feedback on the Figma wireframes, including client users and potential members. The average score given was 8 out of 10. Positive feedback on the wireframes stated the colour scheme was good and the user interface was simple and intuitive. Users reported they were impressed with the design, forms and payment system. Negative feedback included comments that the buttons and forms were not functional, the app needed additional information and the logo was too small. Additional features suggested by users included two factor authentication and better reporting capabilities.
 
 The overall feedback on the app design was positive, therefore no significant changes were made to the design, other than to increase the size of the logo. The feedback that the buttons and forms were not functional and that detailed information and data was lacking is an inherent limitation of using prototypes to request client feedback and this will be addressed during development as the functional app is created. Two factor authentication is not a requirement for the initial release of the app and can be added in a subsequent version.
 
+An export of the data collected is available in the file 'Client_typeform_survey_results_round_1.xlsx' within the 'docs/testing' folder.
+
 <!-- Round 2 - Production - pending  
-Will include 2nd round of Typeform surveys and Usersnap feedback -->
+Will include 2nd round of Typeform surveys -->
 
 #### Testing Framework
-Jest testing framework was used for unit tests of the React front end of the app. RSpec Rails was used for unit testing of the Rails back end of the app.
+Jest testing framework was used for unit tests of the React front end of the app. RSpec Rails was used for unit testing of the Rails back end of the app. Cypress testing framework was used for integration testing.
 
 #### Results
 
 ##### Development Environment
 
-Internal user testing followed a continuous cycle of testing in the development environment, followed by deployment to production and then testing in the production environment. All tests and outcomes for both environments were logged. Non-critical issues identified in development did not prevent deployment to production and were marked for further follow up as part of the ongoing development cycle. 
+Internal user testing followed a continuous cycle of testing in the development environment, followed by deployment to production and then testing in the production environment. All tests and outcomes for both environments were logged. Non-critical issues identified in development did not prevent deployment to production and were marked for further follow up as part of the ongoing development cycle.
 
-<!--
+These tests have been documented in the file 'User_testing_log_internal.xlsx', available in the 'docs/testing' folder.
 
 ##### Production Environment (with Client)
 
+The app in production was demonstrated to the client at a meeting on 27-Jul-2021. The client reported the app was fit for purpose and no issues were identified. Only 1 minor cosmetic change was requested for the initial app release. Please refer to the meeting minutes above for further details.
+
+The app was designed to be fully responsive. Once the initial version of the app was released to production, testing of the overall layout was performed across mobile, tablet and desktop screen sizes to confirm the responsive layout had been implemented. No issues were identified.
+
+These tests have been documented in the file 'User_testing_log_internal.xlsx', available in the 'docs/testing' folder.
+
 ### Libraries Used
 
-### Website Screenshots
+#### Front-end (React)
 
--->
+##### Services
+- axios - used to make http requests
+
+##### Functionality
+- react-router-dom - for dynamic routing within the app
+- react-signature-canvas - provides a canvas for capturing signatures using a mouse or touchscreen
+- react-dropzone - provides a dialogue box for members to uploade profile photos
+- react-markdown - generate waiver from markdown stored in database
+- date-fns - JavaScript date utility library used to parse ISO date time strings
+
+##### Styling
+- tailwindcss - styling framework for building custom user interfaces and responsive design 
+- headlessui, heroicons - ui components required for use with tailwindcss
+- tailwind-styled-components - to create tailwind css react components
+
+##### Testing
+- jest - unit & integration tests (pre-installed)
+- usersnap - user acceptance testing widget
+- cypress - for integration testing 
+
+#### Back-end (Rails)
+
+##### Development
+- byebug - debugging console used to identify code issues during development
+- annotate - provide a schema quick reference for database tables
+- faker - seed data used to populate the database for testing in production
+
+##### Functionality
+- stripe-ruby - provide access to the Stripe API for external payment processing
+- aws-sdk-s3 - aws s3 image upload and storage
+- rack-cors - cross-origin resource sharing
+- active-storage-validations - validate uploaded files
+- active-model-serializers - prepare improved JSON responses
+
+##### Testing
+- rspec-rails - unit & integration testing framework
+- rubocop - code analyser and formatter
+- bullet - N+1 scanner to improve performance by reducing the number of queries made by the app
+- brakeman - vulnerability scanner to identify security issues
+
+##### Authentication / Authorisation
+- devise - for user authentication
+- devise-jwt - devise jwt wrapper for user authentication
+
+### Website Screenshots
