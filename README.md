@@ -323,6 +323,9 @@ In developing the wireframes and prototypes for our application's front-end, we 
 **25/07/21**
 ![250721](./docs/trello/18_250721.png)
 
+**26/07/21**
+![260721](./docs/trello/19_260721.png)
+
 <hr>
 
 ## Client Engagement
@@ -556,3 +559,42 @@ These tests have been documented in the file 'User_testing_log_internal.xlsx', a
 - devise-jwt - devise jwt wrapper for user authentication
 
 ### Website Screenshots
+
+Member Check-In
+![Member Check-In](./docs/screenshots/Screenshot_01_Checkin.png)
+
+Member Welcome
+![Member Welcome](./docs/screenshots/Screenshot_02_Welcome.png)
+
+Log In
+![Log In](./docs/screenshots/Screenshot_03_Login.png)
+
+Check-In Dashboard for admin users
+![Check-In Dashboard](./docs/screenshots/Screenshot_04_Dashboard.png)
+
+Member Sign Up
+![Member Sign Up](./docs/screenshots/Screenshot_05_Member_signup.png)
+
+Waiver text
+![Waiver text](./docs/screenshots/Screenshot_06_WaiverText.png)
+
+Waiver Signature
+![Waiver signature](./docs/screenshots/Screenshot_07_WaiverSign.png)
+
+Payment Options
+![Payment Options](./docs/screenshots/Screenshot_08_PaymentOptions.png)
+
+Profile Review
+![Profile Review](./docs/screenshots/Screenshot_09_ProfileReview.png)
+
+Profile Review
+![Profile Review](./docs/screenshots/Screenshot_10_ProfileReview.png)
+
+Account created confirmation
+![Account confirmed](./docs/screenshots/Screenshot_11_AccountConfirmed.png)
+
+Stripe Payments
+![Stripe Payments](./docs/screenshots/Screenshot_12_StripePayments.png)
+
+Edit Member Profile
+![Edit Member Profile](./docs/screenshots/Screenshot_13_EditMemberProfile.png)
