@@ -471,14 +471,18 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 ![080721](./docs/diagrams/1UPBouldering_sitemap_12Jul2021.png)
 
-
-
 <hr>
 
 ## Part B
 
+### Entity Relationship Diagram
+The entity relationship diagram has been revised since Part A of the assignment to reflect the initial release of the minimum viable product to production
+![ERD revised](./docs/diagrams/final_ERD_MVP.png)
+
 ### User Acceptance Testing
 User acceptance testing was performed by the client during development and of the app in production. The initial phase of testing included gathering user feedback with surveys through Typeform. Testing in production is ongoing and managed with the use of the 'Usersnap' testing widget which allows users to add comments, take screenshots, write and draw to provide their feedback on the app.
+
+![usersnap testing widget](./docs/testing/Screenshot_usersnap_inbox.png)
 
 #### Round 1 - Development ####
 
@@ -598,3 +602,17 @@ Stripe Payments
 
 Edit Member Profile
 ![Edit Member Profile](./docs/screenshots/Screenshot_13_EditMemberProfile.png)
+
+### Login Details 
+
+Please use the following login details to access the production app:
+URL - <https://1upbouldering.app>
+admin username: admin@test.com
+admin password: password
+user username: user@test.com
+user password: password
+
+To test Stripe payments
+Card Number - 4242424242424242
+Expiry Date - Can be any date in the future
+All other fields do not have specific requirements
