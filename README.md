@@ -492,8 +492,13 @@ The overall feedback on the app design was positive, therefore no significant ch
 
 An export of the data collected is available in the file 'Client_typeform_survey_results_round_1.xlsx' within the 'docs/testing' folder.
 
-<!-- Round 2 - Production - pending  
-Will include 2nd round of Typeform surveys -->
+#### Round 2 - Production
+
+5 users completed the survey requesting feedback on the live app in production. The average score given to assess the app's usefulness was 4 out of 5. Positive feedback included that the app was well-designed, user friendly and easy to follow.
+
+Some minor issues redirect issues were identified. These were addressed immediately as the survey responses were received.  
+
+Suggestions for future versions of the app included the ability to filter the results in the admin dashboard. 
 
 #### Testing Framework
 Jest testing framework was used for unit tests of the React front end of the app. RSpec Rails was used for unit testing of the Rails back end of the app. Cypress testing framework was used for integration testing.
