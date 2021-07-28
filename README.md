@@ -71,7 +71,7 @@
 
 ### Purpose
 
-The purpose of this application is to present an all-in-one solution for managing the membership-related operations of a **local bouldering gym** via an **intuitive web portal interface**. It is intended to cover **new member onboarding, profile management, check-in logs, data analytics, and payments integration**. The application is required to be **scalable** and **extendable**, with the potential for integration with **third-party systems** at a later date.
+The purpose of this application is to present an all-in-one solution for managing the membership-related operations of a **local bouldering gym** via an **intuitive web portal interface**. It is intended to cover **new member onboarding, profile management, check-in logs, data analytics, and payments integration**. The application is required to be **scalable** and **extensible**, with the potential for integration with **third-party systems** at a later date.
 
 ### Features
 
@@ -476,10 +476,12 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 ## Part B
 
 ### Entity Relationship Diagram
-The entity relationship diagram has been revised since Part A of the assignment to reflect the initial release of the minimum viable product to production
+The entity relationship diagram has been revised since Part A of the assignment to reflect the initial release of the minimum viable product to production.
+
 ![ERD revised](./docs/diagrams/final_ERD_MVP.png)
 
 ### User Acceptance Testing
+
 User acceptance testing was performed by the client during development and of the live app in production. Both phases of testing included gathering user feedback with surveys through Typeform. Testing and feedback in production is ongoing and managed with the use of the 'Usersnap' testing widget which allows users to add comments, take screenshots, write and draw to provide their feedback on the app.
 
 ![usersnap testing widget](./docs/testing/Screenshot_usersnap_inbox.png)
@@ -501,6 +503,7 @@ Some minor issues redirect issues were identified. These were addressed immediat
 Suggestions for future versions of the app included the ability to filter the results in the admin dashboard.
 
 #### Testing Framework
+
 Jest testing framework was used for unit tests of the React front end of the app. RSpec Rails was used for unit testing of the Rails back end of the app. Cypress testing framework was used for integration testing.
 
 #### Results
@@ -535,8 +538,7 @@ These tests have been documented in the file 'User_testing_log_internal.xlsx', a
 
 ##### Styling
 - tailwindcss - styling framework for building custom user interfaces and responsive design 
-- headlessui, heroicons - ui components required for use with tailwindcss
-- tailwind-styled-components - to create tailwind css react components
+- headlessui, heroicons - icons and components to complement tailwindui
 
 ##### Testing
 - jest - unit & integration tests (pre-installed)
@@ -584,7 +586,7 @@ Check-In Dashboard for admin users
 Member Sign Up
 ![Member Sign Up](./docs/screenshots/Screenshot_05_Member_signup.png)
 
-Waiver text
+Waiver Text
 ![Waiver text](./docs/screenshots/Screenshot_06_WaiverText.png)
 
 Waiver Signature
@@ -599,7 +601,7 @@ Profile Review
 Profile Review
 ![Profile Review](./docs/screenshots/Screenshot_10_ProfileReview.png)
 
-Account created confirmation
+Account Confirmation
 ![Account confirmed](./docs/screenshots/Screenshot_11_AccountConfirmed.png)
 
 Stripe Payments
@@ -610,7 +612,7 @@ Edit Member Profile
 
 ### Login Details 
 
-Please use the following login details to access the production app:
+Please use the following login details to test the live application:
 
 URL - <https://1upbouldering.app>
 
