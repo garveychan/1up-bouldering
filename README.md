@@ -55,7 +55,7 @@
   - **_[Entity Relationship Diagram](#entity-relationship-diagram)_**
   - **_[Visual Sitemap](#visual-sitemap)_**
 - **_[Part B](#part-b)_**
-  - **_[Updated Entity Relationship Diagram](#updataed-entity-relationship-diagram)_**
+  - **_[Updated Entity Relationship Diagram](#updated-entity-relationship-diagram)_**
   - **_[User Acceptance Testing](#user-acceptance-testing)_**
   - **_[Libraries Used](#libraries-used)_**
   - **_[Website Screenshots](#website-screenshots)_**
