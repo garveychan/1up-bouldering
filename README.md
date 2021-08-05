@@ -54,16 +54,12 @@
 - **_[Further Diagrams](#further-diagrams)_**
   - **_[Entity Relationship Diagram](#entity-relationship-diagram)_**
   - **_[Visual Sitemap](#visual-sitemap)_**
-<!-- 
 - **_[Part B](#part-b)_**
+  - **_[Updated Entity Relationship Diagram](#updataed-entity-relationship-diagram)_**
   - **_[User Acceptance Testing](#user-acceptance-testing)_**
-    - **_[Testing Framework](#testing-framework)_**
-    - **_[Test Results](#results)_**
-      - **_[Development Environment](#development-environment)_**
-      - **_[Production Environment](#production-environment-with-client)_**
   - **_[Libraries Used](#libraries-used)_**
   - **_[Website Screenshots](#website-screenshots)_**
--->
+  - **_[Login Details](#login-details)_**
 
 <hr>
 
@@ -475,7 +471,7 @@ Noting the limited time-frame for this assignment, we present stopgap solutions 
 
 ## Part B
 
-### Entity Relationship Diagram
+### Updated Entity Relationship Diagram
 The entity relationship diagram has been revised since Part A of the assignment to reflect the initial release of the minimum viable product to production.
 
 ![ERD revised](./docs/diagrams/final_ERD_MVP.png)
@@ -486,7 +482,7 @@ User acceptance testing was performed by the client during development and of th
 
 ![usersnap testing widget](./docs/testing/Screenshot_usersnap_inbox.png)
 
-#### Round 1 - Development ####
+#### Round 1 - Development
 
 5 users completed the initial survey requesting feedback on the Figma wireframes, including client users and potential members. The average score given was 8 out of 10. Positive feedback on the wireframes stated the colour scheme was good and the user interface was simple and intuitive. Users reported they were impressed with the design, forms and payment system. Negative feedback included comments that the buttons and forms were not functional, the app needed additional information and the logo was too small. Additional features suggested by users included two factor authentication and better reporting capabilities.
 
@@ -527,47 +523,48 @@ These tests have been documented in the file 'User_testing_log_internal.xlsx', a
 #### Front-end (React)
 
 ##### Services
-- axios - used to make http requests
+- axios - used to make http requests.
 
 ##### Functionality
-- react-router-dom - for dynamic routing within the app
-- react-signature-canvas - provides a canvas for capturing signatures using a mouse or touchscreen
-- react-dropzone - provides a dialogue box for members to uploade profile photos
-- react-markdown - generate waiver from markdown stored in database
-- date-fns - JavaScript date utility library used to parse ISO date time strings
+- react-router-dom - for dynamic routing within the app.
+- react-signature-canvas - provides a canvas for capturing signatures using a mouse or touchscreen.
+- react-dropzone - provides a dialogue box for members to uploade profile photos.
+- react-markdown - generate waiver from markdown stored in database.
+- date-fns - JavaScript date utility library used to parse ISO date time strings.
 
 ##### Styling
-- tailwindcss - styling framework for building custom user interfaces and responsive design 
-- headlessui, heroicons - icons and components to complement tailwindui
+- tailwindcss - styling framework for building custom user interfaces and responsive design.
+- headlessui, heroicons - icons and components to complement tailwindui.
+- fontawesomeicons - additional icon library.
 
 ##### Testing
-- jest - unit & integration tests (pre-installed)
-- usersnap - user acceptance testing widget
-- cypress - for integration testing 
+- jest - unit & integration tests (pre-installed).
+- usersnap - user acceptance testing widget.
+- cypress - for integration testing.
 
 #### Back-end (Rails)
 
 ##### Development
-- byebug - debugging console used to identify code issues during development
-- annotate - provide a schema quick reference for database tables
-- faker - seed data used to populate the database for testing in production
+- byebug - debugging console used to identify code issues during development.
+- annotate - provide a schema quick reference for database tables.
+- faker - seed data used to populate the database for testing in production.
 
 ##### Functionality
-- stripe-ruby - provide access to the Stripe API for external payment processing
-- aws-sdk-s3 - aws s3 image upload and storage
-- rack-cors - cross-origin resource sharing
-- active-storage-validations - validate uploaded files
-- active-model-serializers - prepare improved JSON responses
+- stripe-ruby - provide access to the Stripe API for external payment processing.
+- aws-sdk-s3 - aws s3 image upload and storage.
+- rack-cors - cross-origin resource sharing.
+- active-storage-validations - validate uploaded files.
+- active-model-serializers - prepare improved JSON responses.
 
 ##### Testing
-- rspec-rails - unit & integration testing framework
-- rubocop - code analyser and formatter
-- bullet - N+1 scanner to improve performance by reducing the number of queries made by the app
-- brakeman - vulnerability scanner to identify security issues
+- rspec-rails - unit & integration testing framework.
+- rubocop - code analyser and formatter.
+- bullet - N+1 scanner to improve performance by reducing the number of queries made by the app.
+- brakeman - vulnerability scanner to identify security issues.
 
 ##### Authentication / Authorisation
-- devise - for user authentication
-- devise-jwt - devise jwt wrapper for user authentication
+- devise - for user authentication.
+- devise-jwt - devise jwt wrapper for user authentication.
 
 ### Website Screenshots
 
