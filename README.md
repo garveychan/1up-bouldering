@@ -18,9 +18,9 @@
 
 #### R11 - Github Repositories
 
-**[Front-End Repository](https://github.com/garveycodes/t3a2-full-stack-app-front)**
+**[Front-End Repository](https://github.com/garveychan/t3a2-full-stack-app-front)**
 
-**[Back-End Repository](https://github.com/garveycodes/t3a2-full-stack-app-back)**
+**[Back-End Repository](https://github.com/garveychan/t3a2-full-stack-app-back)**
 
 <hr>
 
