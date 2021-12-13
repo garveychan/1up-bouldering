@@ -14,7 +14,7 @@
 
 #### R10 - Deployed Website
 
-**[1UP Bouldering Gym Portal](https://1upbouldering.app)**
+**[Portal](https://1upbouldering.app)**
 
 #### R11 - Github Repositories
 
