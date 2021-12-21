@@ -14,7 +14,8 @@
 
 #### R10 - Deployed Website
 
-**[Portal](https://boulderingcrm.netlify.app)**
+
+**[Portal](https://bouldering-crm.netlify.app)**
 
 #### R11 - Github Repositories
 
@@ -611,7 +612,7 @@ Edit Member Profile
 
 Please use the following login details to test the live application:
 
-URL - <https://1upbouldering.app>
+URL - <https://bouldering-crm.netlify.app>
 
 admin username: admin@test.com
 
