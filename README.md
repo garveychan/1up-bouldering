@@ -1,7 +1,5 @@
 # Gym Membership Management System
 
-## Client - 1UP Bouldering Gym
-
 <hr>
 
 #### Term 3 Assignment 2 - Full Stack Application
@@ -100,10 +98,6 @@ The purpose of this application is to present an all-in-one solution for managin
 **Billing System**
 - Third-party Payment Integration
 - Payment Emails (Successful / Reminders / Missed)
-
-### Target Audience
-
-The target audience for this application is our client, **1UP Bouldering Gym**, and its membership base.
 
 ### Tech Stack
 
