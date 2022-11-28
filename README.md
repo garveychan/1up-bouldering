@@ -10,11 +10,6 @@
 
 <hr>
 
-#### R10 - Deployed Website
-
-
-**[Portal](https://bouldering-crm.netlify.app)**
-
 #### R11 - Github Repositories
 
 **[Front-End Repository](https://github.com/garveychan/t3a2-full-stack-app-front)**
@@ -602,11 +597,7 @@ Stripe Payments
 Edit Member Profile
 ![Edit Member Profile](./docs/screenshots/Screenshot_13_EditMemberProfile.png)
 
-### Login Details 
-
-Please use the following login details to test the live application:
-
-URL - <https://bouldering-crm.netlify.app>
+### Login Details
 
 admin username: admin@test.com
 
